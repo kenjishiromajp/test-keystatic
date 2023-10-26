@@ -23,7 +23,7 @@ export default config({
   singletons: {
     westpacUIInfo: singleton({
       label: "Westpac UI Info",
-      path: "content/westpac-ui-info/",
+      path: "content/westpac-ui-info",
       schema: {
         changelog: fields.url({
           label: "Changelog link",
